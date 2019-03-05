@@ -7,6 +7,7 @@ import os, time
 def thread_run(num):
     time.sleep(num)
     now = datetime.datetime.now()
+    # 打印当前线程的名称
     print ('线程名： {}, now is {}'.format(threading.currentThread().getName(), now))
 
 def main(thread_num):
