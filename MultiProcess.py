@@ -11,6 +11,7 @@ def writeWork(queue):
         print ('Process1 is writing %s to queue' % (letter))
         queue.put(letter)
         time.sleep(random.random())
+        time.sleep(2)
     # if queue.full():
     #     print ('queue is full ...')
 
